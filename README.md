@@ -105,3 +105,8 @@ the super string SS.
 This Total Transfer Matrix can be used to determine important output variables, 
 such as Transmission, Reflection, and Phase, but also magnetophotonic properties
 such as Faraday rotation.
+
+NOTE: An additional function was made for ease to accessing the individual variables
+from the table X using the Extract_Vars function:
+
+[ Var ] = Extract_Vars(X,Varname,varargin)
